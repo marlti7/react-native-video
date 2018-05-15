@@ -209,7 +209,7 @@ class ReactExoplayerView extends FrameLayout implements
             player.setMetadataOutput(this);
             exoPlayerView.setPlayer(player);
             audioBecomingNoisyReceiver.setListener(this);
-            setPlayWhenReady(!isPaused);
+//             setPlayWhenReady(!isPaused);
             playerNeedsSource = true;
 
             PlaybackParameters params = new PlaybackParameters(rate, 1f);
